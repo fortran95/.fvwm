@@ -25,7 +25,8 @@ MenuStyle startup AnimationOff, AutomaticHotkeysOff
 MenuStyle startup BorderWidth 1
 MenuStyle startup PopupAsSubmenu, HoldSubmenus, SubmenusRight
 MenuStyle startup ItemFormat "%.8|%5.5i%1.3l%2.3>%|"
-MenuStyle startup VerticalItemSpacing 10 10, VerticalTitleSpacing 2 2
+MenuStyle startup VerticalItemSpacing 0 0, VerticalTitleSpacing 20 20
+#MenuStyle startup VerticalMargins 5 5
 MenuStyle startup MenuColorset 7
 MenuStyle startup ActiveFore
 MenuStyle startup Hilightback

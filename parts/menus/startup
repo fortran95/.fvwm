@@ -7,13 +7,13 @@ Read $./submenus/startup.control
 # Menu Definition
 DestroyMenu mnuStartup
 AddToMenu mnuStartup
-+ "&Internet" callInternetBrowser
-+ "文件管理器(&F)..." callFileBrowser
++ "%32x32/Internet.png%&Internet" callInternetBrowser
++ "%32x32/FileManager.png%文件管理器(&F)..." callFileBrowser
 + "" Nop
-+ "程序(&P)" Popup mnuStartupPrograms
-+ "控制面板(&C)" Popup mnuStartupControl
-+ "运行(&E)..." callTerminal
++ "%32x32/Programs.png%程序(&P)" Popup mnuStartupPrograms
++ "%32x32/Control.png%控制面板(&C)" Popup mnuStartupControl
++ "%32x32/Terminal.png%运行(&E)..." callTerminal
 + "" Nop
-+ "注销(&L)" Quit
++ "%32x32/Logout.png%注销(&L)" Quit
 
 ChangeMenuStyle startup mnuStartup

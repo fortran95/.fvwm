@@ -20,4 +20,4 @@ DestroyModuleConfig FvwmTaskBar: *
 *FvwmTaskBar: ClockFormat %Y-%m-%d %H:%M
 *FvwmTaskBar: UpdateInterval 1
 #*FvwmTaskBar: Action Click3 Menu FvwmWindowOpsMenu
-#*FvwmTaskBar: StartIcon mini/fvwm.png
+*FvwmTaskBar: StartIcon 24x24/star.png
