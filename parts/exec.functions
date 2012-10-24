@@ -5,3 +5,7 @@ AddToFunc callTerminal
 DestroyFunc callInternetBrowser
 AddToFunc callInternetBrowser
 + I Exec exec chromium-browser
+
+DestroyFunc callFileBrowser
+AddToFunc callFileBrowser
++ I Exec exec pcmanfm

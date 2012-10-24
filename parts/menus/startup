@@ -8,9 +8,12 @@ Read $./submenus/startup.control
 DestroyMenu mnuStartup
 AddToMenu mnuStartup
 + "&Internet" callInternetBrowser
++ "文件管理器(&F)..." callFileBrowser
 + "" Nop
 + "程序(&P)" Popup mnuStartupPrograms
 + "控制面板(&C)" Popup mnuStartupControl
 + "运行(&E)..." callTerminal
 + "" Nop
 + "注销(&L)" Quit
+
+ChangeMenuStyle startup mnuStartup

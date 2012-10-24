@@ -22,3 +22,4 @@ AddToDecor   GeneralDecoration
 Style "*" UseDecor GeneralDecoration
 Style "*" BorderWidth 1, HandleWidth 1
 Style "*" ColorSet 4, HilightColorset 3, BorderColorset 4, HilightBorderColorSet 4
+Style "*" Font "xft:Sans:Bold:size=10:minspace=False:antialias=True"

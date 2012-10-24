@@ -82,25 +82,7 @@ Style * IconBox screen w 15 15 -165 -15, IconGrid 3 3, IconFill right top
 
 # Configure the TaskBar
 #######################
-Style "FvwmTaskBar" NoTitle, !Handles, !Borders, Sticky, WindowListSkip, \
-  CirculateSkip, StaysOn, FixedPosition, FixedSize, !Iconifiable
-DestroyModuleConfig FvwmTaskBar: *
-*FvwmTaskBar: Geometry +0-0
-*FvwmTaskBar: Rows 1
-*FvwmTaskBar: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
-*FvwmTaskBar: SelFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
-*FvwmTaskBar: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
-*FvwmTaskBar: Colorset 9
-*FvwmTaskBar: IconColorset 9
-*FvwmTaskBar: FocusColorset 9
-*FvwmTaskBar: TipsColorset 9
-*FvwmTaskBar: UseSkipList
-*FvwmTaskBar: UseIconNames
-*FvwmTaskBar: ShowTips
-*FvwmTaskBar: StartName NERV
-*FvwmTaskBar: StartMenu mnuStartup
-#*FvwmTaskBar: Action Click3 Menu FvwmWindowOpsMenu
-#*FvwmTaskBar: StartIcon mini/fvwm.png
+Read $./parts/fvwm.taskbar
 
 # Startup Functions
 ###################

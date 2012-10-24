@@ -1,0 +1,23 @@
+Style "FvwmTaskBar" NoTitle, !Handles, !Borders, Sticky, WindowListSkip, \
+  CirculateSkip, StaysOn, FixedPosition, FixedSize, !Iconifiable
+DestroyModuleConfig FvwmTaskBar: *
+*FvwmTaskbar: DeskOnly
+*FvwmTaskBar: Geometry +0-0
+*FvwmTaskBar: Rows 1
+*FvwmTaskBar: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*FvwmTaskBar: SelFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*FvwmTaskBar: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*FvwmTaskBar: Colorset 9
+*FvwmTaskBar: IconColorset 9
+*FvwmTaskBar: FocusColorset 9
+*FvwmTaskBar: TipsColorset 9
+*FvwmTaskBar: UseSkipList
+*FvwmTaskBar: UseIconNames
+*FvwmTaskBar: ShowTips
+*FvwmTaskBar: StartName NERV
+*FvwmTaskBar: StartMenu mnuStartup
+*FvwmTaskBar: DateFormat %Y-%m-%d
+*FvwmTaskBar: ClockFormat %Y-%m-%d %H:%M
+*FvwmTaskBar: UpdateInterval 1
+#*FvwmTaskBar: Action Click3 Menu FvwmWindowOpsMenu
+#*FvwmTaskBar: StartIcon mini/fvwm.png

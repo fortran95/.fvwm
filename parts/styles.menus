@@ -1,5 +1,5 @@
 Colorset 7 fg Black, bg #e6e7d7, sh Black, hi #202070
-Colorset 8 fg DarkRed, bg #e6e7d7, sh Black, hi #202070
+Colorset 8 fg White, bg #0066ff, sh Black, hi #202070
 
 MenuStyle * PopupDelayed, PopupDelay 300, PopdownImmediately
 MenuStyle * PopupOffset -5 100, TitleWarpOff
@@ -10,6 +10,23 @@ MenuStyle * PopupAsSubmenu, HoldSubmenus, SubmenusRight
 MenuStyle * ItemFormat "%|%5.5i%1.3l%2.3>%|"
 MenuStyle * VerticalItemSpacing 1 1, VerticalTitleSpacing 2 2
 MenuStyle * MenuColorset 7
-MenuStyle * ActiveFore, Hilight3DOff
+MenuStyle * ActiveFore
+MenuStyle * Hilightback
 MenuStyle * ActiveColorset 8
-MenuStyle * Font "Shadow=2:xft:Sans:Bold:size=11:antialias=True"
+MenuStyle * Font "xft:Sans:Bold:size=11:antialias=True"
+
+# Styles for Startup Main Menu
+##############################
+MenuStyle startup Font "xft:Sans:Bold:size=10:antialias=True"
+MenuStyle startup PopupDelayed, PopupDelay 300, PopdownImmediately
+MenuStyle startup PopupOffset -2 100, TitleWarpOff
+MenuStyle startup TitleUnderlines2, SeparatorsLong, TrianglesSolid
+MenuStyle startup AnimationOff, AutomaticHotkeysOff
+MenuStyle startup BorderWidth 1
+MenuStyle startup PopupAsSubmenu, HoldSubmenus, SubmenusRight
+MenuStyle startup ItemFormat "%.8|%5.5i%1.3l%2.3>%|"
+MenuStyle startup VerticalItemSpacing 10 10, VerticalTitleSpacing 2 2
+MenuStyle startup MenuColorset 7
+MenuStyle startup ActiveFore
+MenuStyle startup Hilightback
+MenuStyle startup ActiveColorset 8
