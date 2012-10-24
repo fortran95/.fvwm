@@ -3,7 +3,7 @@ AddToMenu mnuWindowright
 + "最大化/恢复%menu/window-maximize.xpm%"  Maximize
 + "最小化/恢复%menu/window-iconify.xpm%"  Iconify
 + "收起/恢复%menu/window-shade.xpm%"  WindowShade
-+ "粘住/恢复%menu/window-stick.xpm%"  Stick
++ "粘在屏幕上/恢复%menu/window-stick.xpm%"  Stick
 + "移动%menu/window-move.xpm%"  Move
 + "改变大小%menu/window-resize.xpm%"  Resize
 + "" Nop
