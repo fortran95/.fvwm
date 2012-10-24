@@ -1,0 +1,3 @@
+DestroyMenu mnuStartupPrograms
+AddToMenu mnuStartupPrograms
++ "Opera" exec opera

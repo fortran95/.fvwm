@@ -1,8 +1,14 @@
 # 开始菜单，本菜单的绑定在其他设置文件中
 
+# Sub menus
+Read $./submenus/startup.programs
+
+# Menu Definition
 DestroyMenu mnuStartup
-AddToMenu mnuStartup "开始" Title
+AddToMenu mnuStartup
 + "&Internet" callInternetBrowser
-+ "&Terminal" callTerminal
 + "" Nop
-+ "&Logout" Quit
++ "程序(&P)" Popup mnuStartupPrograms
++ "运行(&E)..." callTerminal
++ "" Nop
++ "注销(&L)" Quit

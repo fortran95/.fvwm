@@ -109,8 +109,8 @@ AddToFunc   StartFunction
 
 DestroyFunc InitFunction
 AddToFunc   InitFunction
-+ I Exec exec xscreensaver
-+ I Exec exec fvwm-root -r $[fvwm_wallpapers]/background.png
+#+ I Exec exec xscreensaver
+#+ I Exec exec fvwm-root -r $[fvwm_wallpapers]/background.png
 + I FvwmXmms
 + I FvwmATerm
 
@@ -134,6 +134,11 @@ AddToMenu GlobalRescueMenu "Rescue MENU" Title
 
 # Menus
 #######
+
+# Style all menus
+Read $./parts/styles.menus
+
+# Load menus definition
 Read $./parts/exec.menus
 
 # Shortcuts
