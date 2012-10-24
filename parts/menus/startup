@@ -1,0 +1,8 @@
+# 开始菜单，本菜单的绑定在其他设置文件中
+
+DestroyMenu mnuStartup
+AddToMenu mnuStartup "开始" Title
++ "&Internet" callInternetBrowser
++ "&Terminal" callTerminal
++ "" Nop
++ "&Logout" Quit

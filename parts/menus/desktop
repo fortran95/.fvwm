@@ -1,0 +1,3 @@
+DestroyMenu mnuDesktop
+AddToMenu mnuDesktop "NERV" Title
++ "&Internet" callInternetBrowser

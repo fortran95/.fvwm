@@ -1,0 +1,8 @@
+# 这里注册菜单的绑定
+# 菜单的定义在 ./menus/ 下
+
+#   Desktop Menu
+Mouse 1 R A Menu mnuDesktop
+
+Read $./menus/startup
+Read $./menus/desktop

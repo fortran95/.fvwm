@@ -134,19 +134,7 @@ AddToMenu GlobalRescueMenu "Rescue MENU" Title
 
 # Menus
 #######
-
-#   Desktop Menu
-Mouse 1 R A Menu mnuDesktop
-DestroyMenu mnuDesktop
-AddToMenu mnuDesktop "NERV" Title
-+ "&Internet" callInternetBrowser
-
-DestroyMenu mnuStartup
-AddToMenu mnuStartup "开始" Title
-+ "&Internet" callInternetBrowser
-+ "&Terminal" callTerminal
-+ "" Nop
-+ "&Logout" Quit
+Read $./parts/exec.menus
 
 # Shortcuts
 ###########
