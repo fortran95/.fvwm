@@ -90,7 +90,7 @@ DestroyFunc StartFunction
 AddToFunc   StartFunction
 + I Module FvwmTaskBar
 #+ I Module FvwmPager 0 2
-#+ I Module FvwmButtons MyButtons
++ I Module FvwmButtons
 
 DestroyFunc InitFunction
 AddToFunc   InitFunction
@@ -129,3 +129,7 @@ Read $./parts/exec.menus
 # Shortcuts
 ###########
 Read $./parts/exec.shortcuts
+
+# stalonetray
+#############
+#*FvwmButtons: (16x32, Frame 0, Swallow (NoClose,UseOld) "stalonetray" `Exec exec stalonetray -p`)

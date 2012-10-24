@@ -1,4 +1,4 @@
-Colorset 7 fg Black, bg #e6e7d7, sh Black, hi #202070
+Colorset 7 fg Black, bg #cccccc, sh Black, hi #202070
 Colorset 8 fg White, bg #0066ff, sh Black, hi #202070
 
 MenuStyle * PopupDelayed, PopupDelay 300, PopdownImmediately
@@ -13,7 +13,7 @@ MenuStyle * MenuColorset 7
 MenuStyle * ActiveFore
 MenuStyle * Hilightback
 MenuStyle * ActiveColorset 8
-MenuStyle * Font "xft:Sans:Bold:size=11:antialias=True"
+MenuStyle * Font "xft:Sans:Normal:size=11:antialias=True"
 
 # Styles for Startup Main Menu
 ##############################

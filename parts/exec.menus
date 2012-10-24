@@ -3,6 +3,8 @@
 
 #   Desktop Menu
 Mouse 1 R A Menu mnuDesktop
+Mouse 3 T A Menu mnuWindowright
 
 Read $./menus/startup
 Read $./menus/desktop
+Read $./menus/window.right

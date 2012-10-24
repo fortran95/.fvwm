@@ -1,0 +1,5 @@
+DestroyMenu mnuWindowright
+AddToMenu mnuWindowright
++ "最大化" FvwmMaximize 100 100
++ "最小化" FvwmIconifyOrShade
++ "关闭" FvwmDeleteOrDestroy
