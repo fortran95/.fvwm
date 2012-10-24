@@ -3,6 +3,7 @@
 # Sub menus
 Read $./submenus/startup.programs
 Read $./submenus/startup.control
+Read $./submenus/startup.running
 
 # Menu Definition
 DestroyMenu mnuStartup
@@ -14,6 +15,6 @@ AddToMenu mnuStartup "%banner.png%" Title
 + "%48x48/Control.png%控制面板(&C)" Popup mnuStartupControl
 + "%48x48/Terminal.png%运行(&E)..." callTerminal
 + "" Nop
-+ "%48x48/Logout.png%注销(&L)" Quit
++ "%48x48/Logout.png%系统运行(&L)" Popup mnuStartupRunning
 
 ChangeMenuStyle startup mnuStartup
