@@ -2,6 +2,7 @@
 
 # Sub menus
 Read $./submenus/startup.programs
+Read $./submenus/startup.control
 
 # Menu Definition
 DestroyMenu mnuStartup
@@ -9,6 +10,7 @@ AddToMenu mnuStartup
 + "&Internet" callInternetBrowser
 + "" Nop
 + "程序(&P)" Popup mnuStartupPrograms
++ "控制面板(&C)" Popup mnuStartupControl
 + "运行(&E)..." callTerminal
 + "" Nop
 + "注销(&L)" Quit

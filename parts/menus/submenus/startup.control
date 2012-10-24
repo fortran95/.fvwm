@@ -1,0 +1,3 @@
+DestroyMenu mnuStartupControl
+AddToMenu mnuStartupControl
++ "添加删除软件包" exec gksudo synaptic

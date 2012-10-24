@@ -18,7 +18,10 @@ EdgeThickness 1
 #########################
 ClickTime 300
 MoveThreshold 3
-Style * ClickToFocus, TileCascadePlacement 
+Style * ClickToFocus
+
+## Style * GrabFocusOff
+Style * FPGrabFocus
 
 # Window Operating Function
 ###########################
@@ -61,7 +64,7 @@ Read $./parts/windows.decoration
 
 # Global Styles and options
 ###########################
-Style * TileCascadePlacement, GrabFocusOff
+Style * TileCascadePlacement
 Style * NoPPosition, ResizeOpaque
 OpaqueMoveSize -1
 Emulate MWM

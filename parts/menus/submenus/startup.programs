@@ -1,3 +1,4 @@
 DestroyMenu mnuStartupPrograms
 AddToMenu mnuStartupPrograms
 + "Opera" exec opera
++ "DraftSight" exec draftsight
