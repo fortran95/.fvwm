@@ -9,3 +9,11 @@ AddToFunc callInternetBrowser
 DestroyFunc callFileBrowser
 AddToFunc callFileBrowser
 + I Exec exec pcmanfm
+
+DestroyFunc callScreenshotAll
+AddToFunc callScreenshotAll
++ I Exec exec gnome-screenshot
+
+DestroyFunc callScreenshotWindow
+AddToFunc callScreenshotWindow
++ I Exec exec gnome-screenshot -w

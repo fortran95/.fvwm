@@ -17,5 +17,4 @@ AddToMenu mnuWindowright
 + "下移一层%menu/window-lower.xpm%"  Pick (CirculateHit) Layer -1
 + "设为底部%menu/window-lower.xpm%"  Pick (CirculateHit) Layer 0 2
 + "" Nop
-+ "%menu/window.xpm%窗体截图"  Pick (CirculateHit) FvwmWindowScreenshot
-+ "%menu/display.xpm%截图" FvwmDesktopScreenshot 5
++ "%menu/window.xpm%窗体截图"  callScreenshotWindow
