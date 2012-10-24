@@ -1,0 +1,7 @@
+DestoryFunc callTerminal
+AddToFunc callTerminal
++ I Exec exec xterm
+
+DestroyFunc callInternetBrowser
+AddToFunc callInternetBrowser
++ I Exec exec chromium-browser
