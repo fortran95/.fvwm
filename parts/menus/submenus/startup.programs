@@ -1,6 +1,6 @@
 DestroyMenu mnuStartupPrograms
 AddToMenu mnuStartupPrograms
-+ "Opera" exec opera
++ "%24x24/icon.opera.png%Opera" exec opera
 + "%24x24/icon.cad.png%DraftSight" exec draftsight
 
 ChangeMenuStyle startupsub mnuStartupPrograms

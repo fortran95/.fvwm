@@ -1,6 +1,6 @@
 DestroyMenu mnuStartupControl
 AddToMenu mnuStartupControl
-+ "添加删除软件包" exec gksudo synaptic
-+ "管理我的密码和密钥" exec seahorse
++ "%24x24/icon.software.png%添加删除软件包" exec gksudo synaptic
++ "%24x24/icon.keys.png%管理我的密码和密钥" exec seahorse
 
 ChangeMenuStyle startupsub mnuStartupControl
