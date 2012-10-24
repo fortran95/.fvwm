@@ -86,6 +86,7 @@ Style * WindowShadeSteps 20, WindowShadeScrolls
 SetAnimation  10  -.01 0 .01 .03 .08 .18 .3 .45 .6 .75 .85 .90 .94 .97 .99 1.0
 Style * MwmDecor, SlipperyIcon
 Style * IconBox screen w 15 15 -165 -15, IconGrid 3 3, IconFill right top
+Style *term TitleAtLeft
 
 # Configure the TaskBar
 #######################
