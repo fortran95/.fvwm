@@ -1,5 +1,21 @@
 DestroyMenu mnuWindowright
 AddToMenu mnuWindowright
-+ "最大化" FvwmMaximize 100 100
-+ "最小化" FvwmIconifyOrShade
-+ "关闭" FvwmDeleteOrDestroy
++ "最大化/恢复%menu/window-maximize.xpm%"  Maximize
++ "最小化/恢复%menu/window-iconify.xpm%"  Iconify
++ "收起/恢复%menu/window-shade.xpm%"  WindowShade
++ "粘住/恢复%menu/window-stick.xpm%"  Stick
++ "移动%menu/window-move.xpm%"  Move
++ "改变大小%menu/window-resize.xpm%"  Resize
++ "" Nop
++ "关闭%menu/window-close.xpm%"  Close
++ "删除%menu/window-delete.xpm%"  Delete
++ "摧毁%menu/window-destroy.xpm%"  Destroy
++ "" Nop
++ "设为顶端%menu/window-raise.xpm%"  Pick (CirculateHit) Layer 0 6
++ "上移一层%menu/window-raise.xpm%"  Pick (CirculateHit) Layer +1
++ "放置在本层%menu/window.xpm%"  Pick (CirculateHit) Layer 0 4
++ "下移一层%menu/window-lower.xpm%"  Pick (CirculateHit) Layer -1
++ "设为底部%menu/window-lower.xpm%"  Pick (CirculateHit) Layer 0 2
++ "" Nop
++ "%menu/window.xpm%窗体截图"  Pick (CirculateHit) FvwmWindowScreenshot
++ "%menu/display.xpm%截图" FvwmDesktopScreenshot 5

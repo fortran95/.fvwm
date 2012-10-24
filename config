@@ -52,6 +52,13 @@ DestroyFunc FvwmWindowShade
 AddToFunc   FvwmWindowShade
 + D WindowShade $0
 
+DestroyFunc FvwmToggleOnTop
+AddToFunc   FvwmToggleOnTop
++ C State 1 toggle
++ C ThisWindow (State 1) Layer 0 6
++ C ThisWindow (!State 1) Layer 0 4
++ C ThisWindow (!State 1) Raise
+
 # Bind Buttons To Windows
 #########################
 Mouse 1 2 A FvwmDeleteOrDestroy
