@@ -3,8 +3,8 @@ AddToMenu mnuStartupRunning
 + "%24x24/icon.logout.png%注销" Quit
 + "%24x24/icon.reload.png%重新载入窗口管理器" Restart
 + "" Nop
-+ "%24x24/icon.suspend.png%系统待机" Nop
-+ "%24x24/icon.hibernate.png%系统休眠" Nop
++ "%24x24/icon.suspend.png%系统待机" exec gksudo pm-suspend
++ "%24x24/icon.hibernate.png%系统休眠" exec gksudo pm-hibernate
 + "" Nop
 + "%24x24/icon.restart.png%重新启动" exec gksudo reboot
 + "%24x24/icon.poweroff.png%关闭计算机" exec gksudo poweroff
