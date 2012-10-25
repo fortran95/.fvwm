@@ -11,7 +11,7 @@ DestroyModuleConfig NERVBarIcom: *
 
 DestroyFunc onNERVClicked
 AddToFunc onNERVClicked
-+ I Popup mnuStartup
++ I Popup mnuStartup Root 206p 0
 + C Nop
 + H Nop
 + M Nop
@@ -26,3 +26,4 @@ DestroyModuleConfig NERVBar: *
 *NERVBar: (1x5, Back #FC0 Icon banner.png Action(Mouse 1) `onNERVClicked`)
 *NERVBar: (1x52,Back #CCC Top Swallow "NERVBarIcom")
 *NERVBar: (1x3, Swallow "xclock" "exec xclock -digital -update 1 -strftime '%Y-%m-%d %H:%M:%S'")
+
