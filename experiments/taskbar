@@ -4,6 +4,7 @@ Style "NERVBarIcom" Sticky
 DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: DrawIcons true
 *NERVBarIcom: Plainbutton up
+*NERVBarIcom: Relief 1
 *NERVBarIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVBarIcom: SelFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVBarIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
@@ -21,7 +22,7 @@ DestroyModuleConfig NERVBar: *
 *NERVBar: Geometry 205x768+0+0
 *NERVBar: Rows 60
 *NERVBar: Columns 1
-*NERVBar: Colorset 101
-*NERVBar: (1x5, Icon banner.png Action(Mouse 1) `onNERVClicked`)
-*NERVBar: (1x50, Top Swallow "NERVBarIcom")
-*NERVBar: (1x5)
+*NERVBar: Frame 1
+*NERVBar: (1x5, Back #FC0 Icon banner.png Action(Mouse 1) `onNERVClicked`)
+*NERVBar: (1x52,Back #CCC Top Swallow "NERVBarIcom")
+*NERVBar: (1x3, Swallow "xclock" "exec xclock -digital -update 1 -strftime '%Y-%m-%d %H:%M:%S'")
