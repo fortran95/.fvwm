@@ -1,11 +1,16 @@
 
-Colorset 3 fg White, bg #000099
-Colorset 4 fg Black, bg #ccc
+Colorset 3 fg Black, bg Black, sh White
+Colorset 4 fg #CCC, bg Black, sh White
 Colorset 5 fg White, bg Black
 
 DestroyDecor GeneralDecoration
 AddToDecor   GeneralDecoration
 + TitleStyle LeftJustified Height 24
++ TitleStyle Multipixmap Main TiledPixmap 24x24/title.lines.png \
+                         UnderText TiledPixmap 24x24/title.textarea.png \
+                         LeftOfText TiledPixmap 24x24/title.textarea.left.png \
+                         RightOfText TiledPixmap 24x24/title.textarea.right.png \
+                         Buttons AdjustedPixmap 24x24/title.button.gray.png
 + ButtonStyle 2 ActiveUp Vector 4 30x30@3 60x60@3 60x30@4 30x60@3 -- Flat
 + ButtonStyle 2 ActiveDown Vector 4 30x30@3 60x60@3 60x30@4 30x60@3 -- Flat
 + ButtonStyle 2 Inactive Vector 4 30x30@3 60x60@3 60x30@4 30x60@3 -- Flat

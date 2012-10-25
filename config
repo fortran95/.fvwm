@@ -114,8 +114,6 @@ DestroyFunc InitFunction
 AddToFunc   InitFunction
 #+ I Exec exec xscreensaver
 + I Exec exec fvwm-root -r $[IMGDIR]/backgrounds/standard1366x768.png
-+ I FvwmXmms
-+ I FvwmATerm
 
 DestroyFunc RestartFunction
 AddToFunc   RestartFunction
