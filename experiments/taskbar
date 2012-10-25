@@ -1,4 +1,5 @@
-Colorset 101 fg Black bg White
+Colorset 101 fg Black, bg White
+Colorset 102 fg Black, bg #ffc
 
 Style "NERVBarIcom" Sticky, NoTitle, !Handles, !Borders, !Iconifiable
 DestroyModuleConfig NERVBarIcom: *
@@ -10,11 +11,16 @@ DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: FocusAndSelectButton up
 *NERVBarIcom: TitleButton up
 *NERVBarIcom: IconButton up
+*NERVBarIcom: Format "%i"
+*NERVBarIcom: Tips needed
+*NERVBarIcom: TipsColorset 102
+*NERVBarIcom: TipsDelays 300 300
+*NERVBarIcom: TipsPlacement leftright
 *NERVBarIcom: ReliefThickness 1
 *NERVBarIcom: Relief 1
 *NERVBarIcom: ButtonGeometry x30
 *NERVBarIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
-*NERVBarIcom: SelFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVBarIcom: TipsFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVBarIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 
 DestroyFunc onNERVClicked
