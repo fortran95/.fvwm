@@ -1,8 +1,9 @@
 Colorset 101 fg Black bg White
 
-Style "NERVBarIcom" Sticky
+Style "NERVBarIcom" Sticky, NoTitle, !Handles, !Borders, !Iconifiable
 DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: DrawIcons true
+*NERVBarIcom: Dontshow "FvwmIconMan"
 *NERVBarIcom: PlainButton up
 *NERVBarIcom: FocusButton up
 *NERVBarIcom: SelectButton up

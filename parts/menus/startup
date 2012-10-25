@@ -7,7 +7,7 @@ Read $./submenus/startup.running
 
 # Menu Definition
 DestroyMenu mnuStartup
-AddToMenu mnuStartup "%banner.png%" Title
+AddToMenu mnuStartup
 + "%48x48/Internet.png%&Internet" callInternetBrowser
 + "%48x48/FileManager.png%文件管理器(&F)..." callFileBrowser
 + "" Nop
