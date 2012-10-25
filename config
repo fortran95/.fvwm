@@ -107,6 +107,7 @@ AddToFunc   StartFunction
 + I Module FvwmTaskBar
 #+ I Module FvwmPager 0 2
 + I Module FvwmButtons
++ I Module FvwmIconMan NERVBar
 
 DestroyFunc InitFunction
 AddToFunc   InitFunction
@@ -146,6 +147,6 @@ Read $./parts/exec.menus
 ###########
 Read $./parts/exec.shortcuts
 
-# stalonetray
-#############
-#*FvwmButtons: (16x32, Frame 0, Swallow (NoClose,UseOld) "stalonetray" `Exec exec stalonetray -p`)
+# Experimenting Another Taskbar
+###############################
+Read $./experiments/taskbar
