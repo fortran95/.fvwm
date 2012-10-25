@@ -1,7 +1,8 @@
 
 Colorset 3 fg Black, bg Black, sh White
 Colorset 4 fg #CCC, bg Black, sh White
-Colorset 5 fg White, bg Black
+Colorset 5 fg #FC0, bg #FC0
+Colorset 6 fg #FC0, bg #950
 
 DestroyDecor GeneralDecoration
 AddToDecor   GeneralDecoration
@@ -22,8 +23,9 @@ AddToDecor   GeneralDecoration
 + TitleStyle -- Flat
 + BorderStyle Simple -- NoInset Flat
 + ButtonStyle All -- Flat
+#+ BorderStyle Colorset 5
 
 Style "*" UseDecor GeneralDecoration
 Style "*" BorderWidth 1, HandleWidth 1
-Style "*" ColorSet 4, HilightColorset 3, BorderColorset 4, HilightBorderColorSet 4
+Style "*" ColorSet 4, HilightColorset 3, BorderColorset 6, HilightBorderColorSet 5
 Style "*" Font "xft:Sans:Bold:size=10:minspace=False:antialias=True"
