@@ -5,6 +5,7 @@ DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: DrawIcons true
 *NERVBarIcom: Plainbutton up
 *NERVBarIcom: Relief 1
+*NERVBarIcom: ButtonGeometry x30
 *NERVBarIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVBarIcom: SelFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVBarIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
