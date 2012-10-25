@@ -2,7 +2,7 @@
 # 菜单的定义在 ./menus/ 下
 
 #   Desktop Menu
-Mouse 1 R A Menu mnuDesktop
+Mouse 3 R A Menu mnuDesktop
 Mouse 3 T A Menu mnuWindowright
 
 Read $./menus/startup
