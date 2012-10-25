@@ -10,7 +10,7 @@ DesktopName 0 Main
 DesktopName 1 Work
 DesktopName 2 Controller
 EdgeScroll 0 0
-EWMHBaseStruts 0 0 0 24
+EWMHBaseStruts 205 0 0 0
 EdgeResistance 150 150
 EdgeThickness 1
 
@@ -104,10 +104,10 @@ Read $./parts/fvwm.taskbar
 ###################
 DestroyFunc StartFunction
 AddToFunc   StartFunction
-+ I Module FvwmTaskBar
+#+ I Module FvwmTaskBar
 #+ I Module FvwmPager 0 2
-+ I Module FvwmButtons
-+ I Module FvwmIconMan NERVBar
++ I Module FvwmButtons NERVBar
++ I Module FvwmIconMan NERVBarIcom
 
 DestroyFunc InitFunction
 AddToFunc   InitFunction

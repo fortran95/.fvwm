@@ -1,3 +1,27 @@
-Style "NERVBar" Sticky
+Colorset 101 fg Black bg White
+
+Style "NERVBarIcom" Sticky
+DestroyModuleConfig NERVBarIcom: *
+*NERVBarIcom: DrawIcons true
+*NERVBarIcom: Plainbutton up
+*NERVBarIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVBarIcom: SelFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVBarIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+
+DestroyFunc onNERVClicked
+AddToFunc onNERVClicked
++ I Popup mnuStartup
++ C Nop
++ H Nop
++ M Nop
+
+Style "NERVBar" NoTitle, !Handles, !Borders, Sticky, WindowListSkip, \
+  CirculateSkip, StaysOn, FixedPosition, FixedSize, !Iconifiable
 DestroyModuleConfig NERVBar: *
-*NERVBar: DrawIcons true
+*NERVBar: Geometry 205x768+0+0
+*NERVBar: Rows 60
+*NERVBar: Columns 1
+*NERVBar: Colorset 101
+*NERVBar: (1x5, Icon banner.png Action(Mouse 1) `onNERVClicked`)
+*NERVBar: (1x50, Top Swallow "NERVBarIcom")
+*NERVBar: (1x5)
