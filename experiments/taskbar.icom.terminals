@@ -1,0 +1,22 @@
+Style "NERVTerminalsIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
+DestroyModuleConfig NERVTerminalsIcom: *
+*NERVTerminalsIcom: NumManagers 2
+*NERVTerminalsIcom: DrawIcons true
+*NERVTerminalsIcom: Show "*term"
+*NERVTerminalsIcom: PlainButton up
+*NERVTerminalsIcom: FocusButton up
+*NERVTerminalsIcom: SelectButton up
+*NERVTerminalsIcom: FocusAndSelectButton up
+*NERVTerminalsIcom: TitleButton up
+*NERVTerminalsIcom: IconButton up
+*NERVTerminalsIcom: Format "%i"
+*NERVTerminalsIcom: Tips needed
+*NERVTerminalsIcom: TipsColorset 102
+*NERVTerminalsIcom: TipsDelays 300 300
+*NERVTerminalsIcom: TipsPlacement leftright
+*NERVTerminalsIcom: ReliefThickness 1
+*NERVTerminalsIcom: Relief 1
+*NERVTerminalsIcom: ButtonGeometry x30
+*NERVTerminalsIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVTerminalsIcom: TipsFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVTerminalsIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"

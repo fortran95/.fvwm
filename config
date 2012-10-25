@@ -108,6 +108,7 @@ AddToFunc   StartFunction
 #+ I Module FvwmPager 0 2
 + I Module FvwmButtons NERVBar
 + I Module FvwmIconMan NERVBarIcom
++ I Module FvwmIconMan NERVTerminalsIcom
 
 DestroyFunc InitFunction
 AddToFunc   InitFunction

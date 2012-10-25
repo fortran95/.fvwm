@@ -1,10 +1,12 @@
 Colorset 101 fg Black, bg White
 Colorset 102 fg Black, bg #ffc
 
-Style "NERVBarIcom" Sticky, NoTitle, !Handles, !Borders, !Iconifiable
+Style "NERVBarIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
+
 DestroyModuleConfig NERVBarIcom: *
+*NERVBarIcom: NumManagers 2
 *NERVBarIcom: DrawIcons true
-*NERVBarIcom: Dontshow "FvwmIconMan"
+*NERVBarIcom: Dontshow "FvwmIconMan" "*term"
 *NERVBarIcom: PlainButton up
 *NERVBarIcom: FocusButton up
 *NERVBarIcom: SelectButton up
@@ -23,6 +25,8 @@ DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: TipsFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVBarIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 
+Read $./taskbar.icom.terminals
+
 DestroyFunc onNERVClicked
 AddToFunc onNERVClicked
 + I Popup mnuStartup Root 206p 0
@@ -38,6 +42,7 @@ DestroyModuleConfig NERVBar: *
 *NERVBar: Columns 1
 *NERVBar: Frame 1
 *NERVBar: (1x5, Back #FC0 Icon banner.png Action(Mouse 1) `onNERVClicked`)
-*NERVBar: (1x52,Back #CCC Top Swallow "NERVBarIcom")
+*NERVBar: (1x30,Back #CCC Top Swallow "NERVBarIcom" "")
+*NERVBar: (1x21,Back #CCC Top Swallow "NERVTerminalsIcom" "")
 *NERVBar: (1x3, Swallow "xclock" "exec xclock -digital -update 1 -strftime '%Y-%m-%d %H:%M:%S'")
 
