@@ -3,7 +3,13 @@ Colorset 101 fg Black bg White
 Style "NERVBarIcom" Sticky
 DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: DrawIcons true
-*NERVBarIcom: Plainbutton up
+*NERVBarIcom: PlainButton up
+*NERVBarIcom: FocusButton up
+*NERVBarIcom: SelectButton up
+*NERVBarIcom: FocusAndSelectButton up
+*NERVBarIcom: TitleButton up
+*NERVBarIcom: IconButton up
+*NERVBarIcom: ReliefThickness 1
 *NERVBarIcom: Relief 1
 *NERVBarIcom: ButtonGeometry x30
 *NERVBarIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
