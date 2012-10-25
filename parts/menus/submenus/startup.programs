@@ -1,6 +1,7 @@
 DestroyMenu mnuStartupPrograms
 AddToMenu mnuStartupPrograms
 + "%24x24/icon.opera.png%Opera" exec opera
++ "%24x24/icon.movie.png%电影播放机" exec totem
 + "%24x24/icon.cad.png%DraftSight" exec draftsight
 
 ChangeMenuStyle startupsub mnuStartupPrograms
