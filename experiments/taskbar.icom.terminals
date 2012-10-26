@@ -2,7 +2,7 @@ Style "NERVTerminalsIcom" Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
 DestroyModuleConfig NERVTerminalsIcom: *
 *NERVTerminalsIcom: NumManagers 1
 *NERVTerminalsIcom: DrawIcons true
-*NERVTerminalsIcom: Show "*term" class="Putty"
+*NERVTerminalsIcom: Show "*term" class="Putty" "Totem"
 *NERVTerminalsIcom: PlainButton up
 *NERVTerminalsIcom: FocusButton up
 *NERVTerminalsIcom: SelectButton up
@@ -12,7 +12,8 @@ DestroyModuleConfig NERVTerminalsIcom: *
 *NERVTerminalsIcom: TitleColorset 101
 *NERVTerminalsIcom: IconButton up
 *NERVTerminalsIcom: Format "%i"
-*NERVTerminalsIcom: Tips needed
+*NERVTerminalsIcom: Tips always
+*NERVTerminalsIcom: TipsFormat "%c: %i"
 *NERVTerminalsIcom: TipsColorset 102
 *NERVTerminalsIcom: TipsDelays 300 300
 *NERVTerminalsIcom: TipsPlacement leftright

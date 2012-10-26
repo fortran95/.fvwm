@@ -1,12 +1,13 @@
 Colorset 101 fg Black, bg White
 Colorset 102 fg Black, bg #ffc
+Colorset 109 fg White, bg #300
 
 Style "NERVBarIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
 
 DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: NumManagers 1
 *NERVBarIcom: DrawIcons true
-*NERVBarIcom: Dontshow "*term" class="Putty"
+*NERVBarIcom: Dontshow "*term" class="Putty" "Totem"
 *NERVBarIcom: PlainButton up
 *NERVBarIcom: FocusButton up
 *NERVBarIcom: SelectButton up
@@ -16,7 +17,8 @@ DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: TitleColorset 101
 *NERVBarIcom: IconButton up
 *NERVBarIcom: Format "%i"
-*NERVBarIcom: Tips needed
+*NERVBarIcom: Tips always
+*NERVBarIcom: TipsFormat "%c: %i"
 *NERVBarIcom: TipsColorset 102
 *NERVBarIcom: TipsDelays 300 300
 *NERVBarIcom: TipsPlacement leftright
@@ -49,4 +51,4 @@ DestroyModuleConfig NERVBar: *
 *NERVBar: (1x20,Back #CCC Top Swallow "NERVTerminalsIcom" "Module FvwmIconMan NERVTerminalsIcom")
 *NERVBar: (1x3, Back #CCC Left Swallow (NoClose, UseOld) `stalonetray` `Schedule 800 Exec exec stalonetray`)
 #*NERVBar: (1x3, Back #CCC Swallow "xclock" "exec xclock -digital -update 1 -strftime '%Y-%m-%d %H:%M:%S'")
-*NERVBar: (1x2, Back #CCC Left Swallow "FvwmApplet-DigitalClock" "FvwmScript $[SCRIPTDIR]/app.clock 16")
+*NERVBar: (1x2, Colorset 109 Left Swallow "FvwmApplet-DigitalClock" "FvwmScript $[SCRIPTDIR]/app.clock 109")
