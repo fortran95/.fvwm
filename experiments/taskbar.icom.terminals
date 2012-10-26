@@ -1,13 +1,14 @@
-Style "NERVTerminalsIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
+Style "NERVTerminalsIcom" Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
 DestroyModuleConfig NERVTerminalsIcom: *
 *NERVTerminalsIcom: NumManagers 1
 *NERVTerminalsIcom: DrawIcons true
-*NERVTerminalsIcom: Show "*term"
+*NERVTerminalsIcom: Show "*term" class="Putty"
 *NERVTerminalsIcom: PlainButton up
 *NERVTerminalsIcom: FocusButton up
 *NERVTerminalsIcom: SelectButton up
 *NERVTerminalsIcom: FocusAndSelectButton up
-*NERVTerminalsIcom: TitleButton up
+*NERVTermianlsIcom: Title "终端"
+*NERVTerminalsIcom: TitleButton sunkedge
 *NERVTerminalsIcom: IconButton up
 *NERVTerminalsIcom: Format "%i"
 *NERVTerminalsIcom: Tips needed
@@ -16,7 +17,7 @@ DestroyModuleConfig NERVTerminalsIcom: *
 *NERVTerminalsIcom: TipsPlacement leftright
 *NERVTerminalsIcom: ReliefThickness 1
 *NERVTerminalsIcom: Relief 1
-*NERVTerminalsIcom: ButtonGeometry x30
+*NERVTerminalsIcom: ButtonGeometry x24
 *NERVTerminalsIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVTerminalsIcom: TipsFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVTerminalsIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"

@@ -6,12 +6,13 @@ Style "NERVBarIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 
 DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: NumManagers 1
 *NERVBarIcom: DrawIcons true
-*NERVBarIcom: Dontshow "FvwmIconMan" "*term"
+*NERVBarIcom: Dontshow "*term" class="Putty"
 *NERVBarIcom: PlainButton up
 *NERVBarIcom: FocusButton up
 *NERVBarIcom: SelectButton up
 *NERVBarIcom: FocusAndSelectButton up
-*NERVBarIcom: TitleButton up
+*NERVBarIcom: Title "工作区"
+*NERVBarIcom: TitleButton sunkedge
 *NERVBarIcom: IconButton up
 *NERVBarIcom: Format "%i"
 *NERVBarIcom: Tips needed
