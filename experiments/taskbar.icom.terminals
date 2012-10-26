@@ -7,8 +7,9 @@ DestroyModuleConfig NERVTerminalsIcom: *
 *NERVTerminalsIcom: FocusButton up
 *NERVTerminalsIcom: SelectButton up
 *NERVTerminalsIcom: FocusAndSelectButton up
-*NERVTerminalsIcom: Title "终端窗口"
+*NERVTerminalsIcom: Title "当您开启终端时这里会显示"
 *NERVTerminalsIcom: TitleButton sunkedge
+*NERVTerminalsIcom: TitleColorset 101
 *NERVTerminalsIcom: IconButton up
 *NERVTerminalsIcom: Format "%i"
 *NERVTerminalsIcom: Tips needed

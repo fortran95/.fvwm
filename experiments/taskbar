@@ -11,8 +11,9 @@ DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: FocusButton up
 *NERVBarIcom: SelectButton up
 *NERVBarIcom: FocusAndSelectButton up
-*NERVBarIcom: Title "工作区"
+*NERVBarIcom: Title "您的大多数程序都将在此显示"
 *NERVBarIcom: TitleButton sunkedge
+*NERVBarIcom: TitleColorset 101
 *NERVBarIcom: IconButton up
 *NERVBarIcom: Format "%i"
 *NERVBarIcom: Tips needed
@@ -46,6 +47,6 @@ DestroyModuleConfig NERVBar: *
 *NERVBar: (1x5, Back #FC0 Icon banner.png Action(Mouse 1) `onNERVClicked`)
 *NERVBar: (1x30,Back #CCC Top Swallow "NERVBarIcom" "Module FvwmIconMan NERVBarIcom")
 *NERVBar: (1x20,Back #CCC Top Swallow "NERVTerminalsIcom" "Module FvwmIconMan NERVTerminalsIcom")
-*NERVBar: (1x3, Back #CCC Left Swallow (NoClose, UseOld) `stalonetray` `Exec exec stalonetray`)
+*NERVBar: (1x3, Back #CCC Left Swallow (NoClose, UseOld) `stalonetray` `Schedule 800 Exec exec stalonetray`)
 #*NERVBar: (1x3, Back #CCC Swallow "xclock" "exec xclock -digital -update 1 -strftime '%Y-%m-%d %H:%M:%S'")
 *NERVBar: (1x2, Back #CCC Left Swallow "FvwmApplet-DigitalClock" "FvwmScript $[SCRIPTDIR]/app.clock 16")
