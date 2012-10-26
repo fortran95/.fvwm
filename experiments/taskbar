@@ -4,7 +4,7 @@ Colorset 102 fg Black, bg #ffc
 Style "NERVBarIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
 
 DestroyModuleConfig NERVBarIcom: *
-*NERVBarIcom: NumManagers 2
+*NERVBarIcom: NumManagers 1
 *NERVBarIcom: DrawIcons true
 *NERVBarIcom: Dontshow "FvwmIconMan" "*term"
 *NERVBarIcom: PlainButton up
@@ -42,7 +42,7 @@ DestroyModuleConfig NERVBar: *
 *NERVBar: Columns 1
 *NERVBar: Frame 1
 *NERVBar: (1x5, Back #FC0 Icon banner.png Action(Mouse 1) `onNERVClicked`)
-*NERVBar: (1x30,Back #CCC Top Swallow "NERVBarIcom" "")
-*NERVBar: (1x21,Back #CCC Top Swallow "NERVTerminalsIcom" "")
+*NERVBar: (1x30,Back #CCC Top Swallow "NERVBarIcom" "Module FvwmIconMan NERVBarIcom")
+*NERVBar: (1x21,Back #CCC Top Swallow "NERVTerminalsIcom" "Module FvwmIconMan NERVTerminalsIcom")
 *NERVBar: (1x3, Swallow "xclock" "exec xclock -digital -update 1 -strftime '%Y-%m-%d %H:%M:%S'")
 

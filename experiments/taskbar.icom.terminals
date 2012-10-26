@@ -1,6 +1,6 @@
 Style "NERVTerminalsIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
 DestroyModuleConfig NERVTerminalsIcom: *
-*NERVTerminalsIcom: NumManagers 2
+*NERVTerminalsIcom: NumManagers 1
 *NERVTerminalsIcom: DrawIcons true
 *NERVTerminalsIcom: Show "*term"
 *NERVTerminalsIcom: PlainButton up
