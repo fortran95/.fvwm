@@ -1,4 +1,3 @@
-
 # TitleButton's
 Colorset 101 fg Black, bg White
 
@@ -18,7 +17,7 @@ Colorset 105 fg #7C7C7C, bg #CCC
 Colorset 106 fg White, bg #FC0
 
 # FocusedAndSelected Button (Focused button meet a cursor hovering)
-Colorset 107 fg #FC0, bg #D00000
+Colorset 107 fg White, bg #FA0000
 
 # Clock's
 Colorset 109 fg White, bg #300
