@@ -7,7 +7,7 @@ DestroyModuleConfig NERVTerminalsIcom: *
 *NERVTerminalsIcom: FocusButton up
 *NERVTerminalsIcom: SelectButton up
 *NERVTerminalsIcom: FocusAndSelectButton up
-*NERVTermianlsIcom: Title "终端"
+*NERVTerminalsIcom: Title "终端窗口"
 *NERVTerminalsIcom: TitleButton sunkedge
 *NERVTerminalsIcom: IconButton up
 *NERVTerminalsIcom: Format "%i"
