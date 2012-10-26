@@ -1,6 +1,7 @@
 # Global Environmental Variables
 ################################
 SetEnv IMGDIR $[FVWM_USERDIR]/parts/images
+SetEnv SCRIPTDIR $[FVWM_USERDIR]/scripts
 ImagePath $[IMGDIR]
 
 # Virtual Desktops
