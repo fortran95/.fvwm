@@ -25,7 +25,7 @@ MenuStyle startup TitleUnderlines2, SeparatorsLong, TrianglesSolid
 MenuStyle startup AnimationOff, AutomaticHotkeysOff
 MenuStyle startup BorderWidth 1
 MenuStyle startup PopupAsSubmenu, HoldSubmenus, SubmenusRight
-MenuStyle startup ItemFormat "%.8|%i%10.120l%1.3>%|%.4"
+MenuStyle startup ItemFormat "%.8|%i%10.70l%1.3>%|"
 #MenuStyle startup ItemFormat "%s"
 MenuStyle startup VerticalItemSpacing 0 0, VerticalTitleSpacing 20 20
 MenuStyle startup MenuColorset 9
