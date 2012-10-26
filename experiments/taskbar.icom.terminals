@@ -21,3 +21,4 @@ DestroyModuleConfig NERVTerminalsIcom: *
 *NERVTerminalsIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVTerminalsIcom: TipsFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVTerminalsIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVTerminalsIcom: Action Mouse 3 A sendcommand "Popup mnuWindowRight Mouse 100 100"

@@ -25,6 +25,7 @@ DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVBarIcom: TipsFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
 *NERVBarIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVBarIcom: Action Mouse 3 A sendcommand "Popup mnuWindowRight Mouse 100 100"
 
 Read $./taskbar.icom.terminals
 
@@ -44,6 +45,7 @@ DestroyModuleConfig NERVBar: *
 *NERVBar: Frame 1
 *NERVBar: (1x5, Back #FC0 Icon banner.png Action(Mouse 1) `onNERVClicked`)
 *NERVBar: (1x30,Back #CCC Top Swallow "NERVBarIcom" "Module FvwmIconMan NERVBarIcom")
-*NERVBar: (1x21,Back #CCC Top Swallow "NERVTerminalsIcom" "Module FvwmIconMan NERVTerminalsIcom")
+*NERVBar: (1x19,Back #CCC Top Swallow "NERVTerminalsIcom" "Module FvwmIconMan NERVTerminalsIcom")
+*NERVBar: (1x2, Back #CCC Left Swallow (NoClose, UseOld) `stalonetray` `Exec exec stalonetray`)
 *NERVBar: (1x3, Swallow "xclock" "exec xclock -digital -update 1 -strftime '%Y-%m-%d %H:%M:%S'")
 
