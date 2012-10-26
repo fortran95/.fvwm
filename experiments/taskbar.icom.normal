@@ -1,0 +1,42 @@
+Style "NERVBarIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
+
+DestroyModuleConfig NERVBarIcom: *
+*NERVBarIcom: NumManagers 1
+*NERVBarIcom: DrawIcons true
+*NERVBarIcom: Dontshow "*term" class="Putty" "Totem"
+
+*NERVBarIcom: PlainButton up
+*NERVBarIcom: PlainColorset 104
+
+*NERVBarIcom: SelectButton up
+*NERVBarIcom: SelectColorset 106
+
+*NERVBarIcom: FocusAndSelectButton up
+*NERVBarIcom: FocusAndSelectColorset 107
+
+*NERVBarIcom: Title "您的大多数程序都将在此显示"
+*NERVBarIcom: TitleButton sunkedge
+*NERVBarIcom: TitleColorset 101
+
+*NERVBarIcom: FocusButton up
+*NERVBarIcom: FocusColorset 103
+
+*NERVBarIcom: IconButton up
+*NERVBarIcom: IconColorset 105
+
+*NERVBarIcom: Format "%i"
+
+*NERVBarIcom: Tips always
+*NERVBarIcom: TipsFormat "%c: %i"
+*NERVBarIcom: TipsColorset 102
+*NERVBarIcom: TipsDelays 300 300
+*NERVBarIcom: TipsPlacement leftright
+
+*NERVBarIcom: ReliefThickness 1
+*NERVBarIcom: Relief 1
+*NERVBarIcom: ButtonGeometry x30
+
+*NERVBarIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVBarIcom: TipsFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVBarIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
+*NERVBarIcom: Action Mouse 3 A sendcommand "Popup mnuWindowRight Mouse 100 100"

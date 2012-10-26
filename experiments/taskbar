@@ -1,35 +1,5 @@
-Colorset 101 fg Black, bg White
-Colorset 102 fg Black, bg #ffc
-Colorset 109 fg White, bg #300
-
-Style "NERVBarIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 0
-
-DestroyModuleConfig NERVBarIcom: *
-*NERVBarIcom: NumManagers 1
-*NERVBarIcom: DrawIcons true
-*NERVBarIcom: Dontshow "*term" class="Putty" "Totem"
-*NERVBarIcom: PlainButton up
-*NERVBarIcom: FocusButton up
-*NERVBarIcom: SelectButton up
-*NERVBarIcom: FocusAndSelectButton up
-*NERVBarIcom: Title "您的大多数程序都将在此显示"
-*NERVBarIcom: TitleButton sunkedge
-*NERVBarIcom: TitleColorset 101
-*NERVBarIcom: IconButton up
-*NERVBarIcom: Format "%i"
-*NERVBarIcom: Tips always
-*NERVBarIcom: TipsFormat "%c: %i"
-*NERVBarIcom: TipsColorset 102
-*NERVBarIcom: TipsDelays 300 300
-*NERVBarIcom: TipsPlacement leftright
-*NERVBarIcom: ReliefThickness 1
-*NERVBarIcom: Relief 1
-*NERVBarIcom: ButtonGeometry x30
-*NERVBarIcom: Font "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
-*NERVBarIcom: TipsFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
-*NERVBarIcom: StatusFont "xft:Sans:Bold:pixelsize=12:minispace=True:antialias=True"
-*NERVBarIcom: Action Mouse 3 A sendcommand "Popup mnuWindowRight Mouse 100 100"
-
+Read $./taskbar.colorsets
+Read $./taskbar.icom.normal
 Read $./taskbar.icom.terminals
 
 DestroyFunc onNERVClicked

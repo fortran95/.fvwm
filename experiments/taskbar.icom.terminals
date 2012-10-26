@@ -3,14 +3,26 @@ DestroyModuleConfig NERVTerminalsIcom: *
 *NERVTerminalsIcom: NumManagers 1
 *NERVTerminalsIcom: DrawIcons true
 *NERVTerminalsIcom: Show "*term" class="Putty" "Totem"
+
 *NERVTerminalsIcom: PlainButton up
+*NERVTerminalsIcom: PlainColorset 104
+
 *NERVTerminalsIcom: FocusButton up
+*NERVTerminalsIcom: FocusColorset 103
+
 *NERVTerminalsIcom: SelectButton up
+*NERVTerminalsIcom: SelectColorset 106
+
 *NERVTerminalsIcom: FocusAndSelectButton up
+*NERVTerminalsIcom: FocusAndSelectColorset 107
+
 *NERVTerminalsIcom: Title "当您开启终端时这里会显示"
 *NERVTerminalsIcom: TitleButton sunkedge
 *NERVTerminalsIcom: TitleColorset 101
+
 *NERVTerminalsIcom: IconButton up
+*NERVTerminalsIcom: IconColorset 105
+
 *NERVTerminalsIcom: Format "%i"
 *NERVTerminalsIcom: Tips always
 *NERVTerminalsIcom: TipsFormat "%c: %i"

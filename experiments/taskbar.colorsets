@@ -1,0 +1,24 @@
+
+# TitleButton's
+Colorset 101 fg Black, bg White
+
+# Tip's 
+Colorset 102 fg Black, bg #ffc
+
+# FocusButton's
+Colorset 103 fg White, bg #D00000
+
+# PlainButton's (Normal button; Representing windows not shaded.)
+Colorset 104 fg Black, bg #CCC
+
+# IconButton's (windows shaded)
+Colorset 105 fg #7C7C7C, bg #CCC
+
+# SelectButton's (Not focused button meet a cursor hovering)
+Colorset 106 fg White, bg #FC0
+
+# FocusedAndSelected Button (Focused button meet a cursor hovering)
+Colorset 107 fg #FC0, bg #D00000
+
+# Clock's
+Colorset 109 fg White, bg #300
