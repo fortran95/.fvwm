@@ -12,14 +12,8 @@ AddToDecor   GeneralDecoration
                          LeftOfText TiledPixmap 24x24/title.textarea.left.png \
                          RightOfText TiledPixmap 24x24/title.textarea.right.png 
 + ButtonStyle 2 AdjustedPixmap 24x24/title.button.close.png
-+ ButtonStyle 3 AdjustedPixmap 24x24/title.button.min.png
-#+ ButtonStyle 3 ActiveUp Vector 5 30x60@3 60x60@3 60x50@3 30x50@3 30x60@3 -- Flat
-+ ButtonStyle 1 AdjustedPixmap 24x24/title.button.max.png
-#+ ButtonStyle 3 ActiveDown Vector 5 30x60@3 60x60@3 60x50@3 30x50@3 30x60@3 -- Flat
-#+ ButtonStyle 3 Inactive Vector 5 30x60@3 60x60@3 60x50@3 30x50@3 30x60@3 -- Flat
-#+ ButtonStyle 1 ActiveUp Vector 7 30x30@3 30x60@3 60x60@3 60x30@3 30x30@3 30x35@3 60x35@3 -- Flat
-#+ ButtonStyle 1 ActiveDown Vector 7 30x30@3 30x60@3 60x60@3 60x30@3 30x30@3 30x35@3 60x35@3 -- Flat
-#+ ButtonStyle 1 Inactive Vector 7 30x30@3 30x60@3 60x60@3 60x30@3 30x30@3 30x35@3 60x35@3 -- Flat
++ ButtonStyle 6 AdjustedPixmap 24x24/title.button.min.png
++ ButtonStyle 4 AdjustedPixmap 24x24/title.button.max.png
 + TitleStyle -- Flat
 + BorderStyle Simple -- NoInset Flat
 + ButtonStyle All -- Flat
