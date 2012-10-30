@@ -22,3 +22,6 @@ DestroyModuleConfig NERVBar: *
 *NERVBar: (1x20,Back #CCC Top Swallow "NERVTerminalsIcom" "Module FvwmIconMan NERVTerminalsIcom")
 *NERVBar: (1x3, Back #CCC Left Swallow (NoClose, UseOld) `stalonetray` `Schedule 800 Exec exec stalonetray`)
 #*NERVBar: (1x3, Back #CCC Swallow "xclock" "exec xclock -digital -update 1 -strftime '%Y-%m-%d %H:%M:%S'")
+
+#*NERVTerminalsIcom: Action Mouse 4 A sendcommand "Module FvwmScroll 100 100"
+#*NERVTerminalsIcom: Action Mouse 5 A sendcommand "Module FvwmScroll 100 100"

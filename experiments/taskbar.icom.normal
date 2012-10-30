@@ -14,8 +14,7 @@ DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: FocusAndSelectButton up
 *NERVBarIcom: FocusAndSelectColorset 107
 
-*NERVBarIcom: Title "您的大多数程序都将在此显示"
-*NERVBarIcom: TitleButton sunkedge
+*NERVBarIcom: Title ""
 *NERVBarIcom: TitleColorset 101
 
 *NERVBarIcom: FocusButton up
