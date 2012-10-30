@@ -1,0 +1,79 @@
+# Based on Zeka's Conky Faenza 3.2
+# 100% GPL ~ Feel free to modif!
+# modified by jerusalem
+
+# Default Fonts
+use_xft yes
+xftfont sans:size=8
+override_utf8_locale yes
+
+# Performance Settings
+double_buffer yes
+
+# Cache Setting
+imlib_cache_size 0
+
+# Window Settings
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Window border
+draw_borders no
+draw_shades no
+draw_graph_borders no
+
+# Default Color
+default_color CCCCCC
+
+# Color Title.
+color0 D34E18
+
+# Size and position
+minimum_size 220 400
+alignment top_right
+gap_x 0
+gap_y 0
+
+TEXT
+# CPU  
+ ${voffset -30}
+${image ~/.fvwm/conky/themes/elegant.png -p 0,0 190x848}
+${image ~/.fvwm/conky/icons/spacer.png -p 0,0 184x40}
+${goto 20}${font}CPU0: ${cpu cpu0}% ${goto 140}CPU1: ${cpu cpu1}%
+${goto 20}${cpubar cpu0 8,70}${goto 140}${cpubar cpu1 8,70}
+${goto 20}${top name 1}${goto 120}: ${top cpu 1}%
+${goto 20}${top name 2}${goto 120}: ${top cpu 2}%
+${goto 20}${top name 3}${goto 120}: ${top cpu 3}%
+${image ~/.fvwm/conky/icons/system.png -p 170,48 40x40}
+${image ~/.fvwm/conky/icons/spacer.png -p 13,95 194x4}
+# RAM
+${voffset -30}
+${goto 20}内存: ${memperc}% ${goto 140}虚拟内存: ${swapperc}%${font}
+${goto 20}${membar 8,70}${goto 140}${swapbar 8,70}
+${goto 20}共有${processes}个进程${goto 140}共有${running_processes} 个睡眠
+${voffset -10}
+${goto 20}${top name 1}${goto 120}: ${top mem 1}%
+${goto 20}${top name 2}${goto 120}: ${top mem 2}%
+${goto 20}${top name 3}${goto 120}: ${top mem 3}%
+${image ~/.fvwm/conky/icons/memory.png -p 170,158 40x40}
+${image ~/.fvwm/conky/icons/spacer.png -p 13,205 194x4}
+# TEMP
+${voffset -33}
+${goto 20}CPU 温度 ${goto 120} : ${hwmon temp 1} °C$color
+${image ~/.fvwm/conky/icons/spacer.png -p 13,230 194x4}
+#File system
+${voffset -20}
+${goto 20}Root: ${fs_free /} / ${fs_size /} 
+${goto 20}${fs_bar 4,190 /}
+${goto 20}Home: ${fs_free /home} / ${fs_size /home}  
+${goto 20}${fs_bar 4,190 /home}
+${image ~/.fvwm/conky/icons/spacer.png -p 13,300 194x4}
+# System info
+${voffset -20}
+${goto 20}当前用户${goto 70} : ${exec whoami}
+${goto 20}开机时长${goto 70} : ${uptime_short}
+${goto 20}硬盘读写${goto 70} : ${diskio}
+${goto 20}内存状况${goto 70} : ${mem} / ${memmax}
+${goto 20}系统信息${goto 70} : ${kernel} ${pre_exec}  $machine
