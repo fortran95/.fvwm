@@ -4,16 +4,18 @@
 Read $./submenus/startup.programs
 Read $./submenus/startup.control
 Read $./submenus/startup.running
+Read $./submenus/startup.communicate
 
 # Menu Definition
 DestroyMenu mnuStartup
 AddToMenu mnuStartup
-+ "%48x48/Internet.png%&Internet" callInternetBrowser
-+ "%48x48/FileManager.png%文件管理器(&F)..." callFileBrowser
++ "%48x48/Internet.png%浏览器(&B)" callInternetBrowser
++ "%48x48/FileManager.png%文件管理器(&F)" callFileBrowser
 + "" Nop
 + "%48x48/Programs.png%程序(&P)" Popup mnuStartupPrograms
++ "%48x48/Communicate.png%网络通讯(&C)" Popup mnuStartupCommunicate
 + "%48x48/Control.png%控制面板(&C)" Popup mnuStartupControl
-+ "%48x48/Terminal.png%运行(&E)..." callTerminal
++ "%48x48/Terminal.png%运行(&E)" callTerminal
 + "" Nop
 + "%48x48/Logout.png%系统运行(&L)" Popup mnuStartupRunning
 

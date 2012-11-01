@@ -1,7 +1,18 @@
+DestroyMenu mnuStartupProgramsEngineering
+AddToMenu mnuStartupProgramsEngineering
++ "%24x24/icon.cad.png%DraftSight" exec draftsight
+
+DestroyMenu mnuStartupProgramsScientific
+AddToMenu mnuStartupProgramsScientific
++ "%24x24/calculating/maxima.png%Maxima" exec wxmaxima
++ "%24x24/calculating/scilab.png%Scilab" exec scilab
+
 DestroyMenu mnuStartupPrograms
 AddToMenu mnuStartupPrograms
++ "%24x24/icon.scientific.png%科学软件" popup mnuStartupProgramsScientific
++ "%24x24/icon.engineering.png%工程软件" popup mnuStartupProgramsEngineering
++ "" Nop
 + "%24x24/icon.opera.png%Opera" exec opera
 + "%24x24/icon.movie.png%电影播放机" exec totem
-+ "%24x24/icon.cad.png%DraftSight" exec draftsight
 
 ChangeMenuStyle startupsub mnuStartupPrograms
