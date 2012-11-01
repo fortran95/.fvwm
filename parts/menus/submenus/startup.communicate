@@ -4,7 +4,6 @@ AddToMenu mnuStartupCommunicate
 + "%24x24/comm/chat2.png%aMSN" exec aMSN
 + "" Nop
 + "%24x24/icon.opera.png%Opera" exec opera
-+ "%24x24/comm/firefox.png%Firefox" exec firefox
 + "%24x24/comm/chrome.png%Google Chromium" exec chromium-browser
 + "" Nop
 + "%24x24/comm/ssh.png%PuTTY" exec putty
