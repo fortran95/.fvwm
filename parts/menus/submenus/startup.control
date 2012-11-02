@@ -2,5 +2,6 @@ DestroyMenu mnuStartupControl
 AddToMenu mnuStartupControl
 + "%24x24/icon.software.png%添加删除软件包" exec gksudo synaptic
 + "%24x24/icon.keys.png%管理我的密码和密钥" exec seahorse
++ "%24x24/control/screensaver.png%设置屏幕保护" exec xscreensaver-demo
 
 ChangeMenuStyle startupsub mnuStartupControl
