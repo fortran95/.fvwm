@@ -1,4 +1,4 @@
 Key T       A      C callTerminal
 Key Print   A      A callScreenshotAll
 
-Mouse   1   A      C exec Exec `bash -i $[SCRIPTDIR]/diary.sh`
+Mouse   2   A      C exec Exec `bash -i $[SCRIPTDIR]/diary.sh`
