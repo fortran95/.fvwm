@@ -4,7 +4,7 @@ AddToFunc callTerminal
 
 DestroyFunc callInternetBrowser
 AddToFunc callInternetBrowser
-+ I Exec exec google-chrome
++ I Exec exec google-chrome --incognito
 
 DestroyFunc callFileBrowser
 AddToFunc callFileBrowser
