@@ -14,3 +14,4 @@ Key L A 4 FuncFvwmLockScreen
 Key XF86AudioMute A A Exec exec amixer set Master toggle
 Key XF86AudioLowerVolume A A Exec exec amixer set Master 10%-
 Key XF86AudioRaiseVolume A A Exec exec amixer set Master 10%+
+Key XF86AudioPlay A A togglePlayPause 

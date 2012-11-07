@@ -17,3 +17,7 @@ AddToFunc callScreenshotAll
 DestroyFunc callScreenshotWindow
 AddToFunc callScreenshotWindow
 + I Exec exec gnome-screenshot -w
+
+DestroyFunc togglePlayPause
+AddToFunc togglePlayPause
++ I Exec exec totem --play-pause
