@@ -1,6 +1,6 @@
 DestoryFunc callTerminal
 AddToFunc callTerminal
-+ I Exec exec xterm
++ I Exec exec lxterminal
 
 DestroyFunc callInternetBrowser
 AddToFunc callInternetBrowser

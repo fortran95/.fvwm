@@ -138,6 +138,9 @@ AddToMenu GlobalRescueMenu "Rescue MENU" Title
 # Style all menus
 Read $./parts/styles.menus
 
+# Style cursors
+Read $./parts/styles.cursors
+
 # Load menus definition
 Read $./parts/exec.menus
 

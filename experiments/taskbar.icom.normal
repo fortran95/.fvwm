@@ -3,7 +3,7 @@ Style "NERVBarIcom" NoTitle, Sticky, WindowListSkip, BorderWidth 0, HandleWidth 
 DestroyModuleConfig NERVBarIcom: *
 *NERVBarIcom: NumManagers 1
 *NERVBarIcom: DrawIcons true
-*NERVBarIcom: Dontshow "*term" class="Putty" "Totem"
+*NERVBarIcom: Dontshow "*term" class="Putty" "Totem" "Lxterminal"
 
 *NERVBarIcom: PlainButton up
 *NERVBarIcom: PlainColorset 104

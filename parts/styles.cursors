@@ -1,0 +1,4 @@
+CursorStyle DEFAULT $[IMGDIR]/cursors/default.png
+CursorStyle MENU $[IMGDIR]/cursors/menu.png
+CursorStyle ROOT $[IMGDIR]/cursors/default.png
+CursorStyle SELECT $[IMGDIR]/cursors/select.png
